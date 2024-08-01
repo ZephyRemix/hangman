@@ -14,4 +14,8 @@ class GameState
     end
   end
 
+  def update
+    self.turn_count += 1
+  end
+
 end

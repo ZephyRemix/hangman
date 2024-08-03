@@ -19,6 +19,10 @@ class Display
     display_outcome(turn)
   end
 
+  def load_saved_game(turn)
+    display_outcome(turn)
+  end
+  
   def print_result(game_state)
     puts "Won game" if game_state.has_won
     puts "Lost game" if game_state.has_lost
